@@ -32,4 +32,8 @@ public class GameResultFragment extends Fragment {
         super.onStart( );
         gameResultTV.setText( "GOOD LUCK" );
     }
+
+    public void setResult( String result ) {
+        gameResultTV.setText( result );
+    }
 }
