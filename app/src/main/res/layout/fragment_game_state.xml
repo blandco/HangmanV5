@@ -18,7 +18,8 @@
             android:id="@+id/letter"
             style="@style/editTextStyle"
             android:background="@color/inputColor"
-            android:imeOptions="actionDone" />
+            android:imeOptions="actionDone"
+            android:textAppearance="@style/editTextStyle" />
     </LinearLayout>
 
 </LinearLayout>
